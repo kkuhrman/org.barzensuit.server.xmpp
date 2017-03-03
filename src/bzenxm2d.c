@@ -2,6 +2,9 @@
  * @file:	bzenxm2d.c
  * @brief:	Project Barzensuit XMPP Server Module  main().
  * 
+ * Refrences to "section #.#" in comments are to IETF RFC-6120.
+ * @see: https://tools.ietf.org/html/rfc6120
+ *
  * @copyright:	Copyright (C) 2017 Kuhrman Technology Solutions LLC
  * @license:	GPLv3+: GNU GPL version 3
  *
@@ -27,6 +30,42 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include "bzenxm2d.h"
+
+/* Activate the XMPP Server on the local host. */
+int start()
+{
+  int result;
+
+  /* 1.  @todo: Determine the IP address and port at which to connect, typically
+         based on resolution of a fully qualified domain name (Section 3.2) */
+
+  /* 2.  Open a TCP connection */
+
+  /* 3.  @todo: Open an XML stream (Section 4.2) */
+
+  /* 4.  @todo: Negotiate TLS for channel encryption (Section 5) */
+
+  /* 5.  @todo: Authenticate using a Simple Authentication and Security Layer
+         [SASL] mechanism (Section 6) */
+
+  result = -1;
+
+  return result;
+}
+
+/* Terminate the XMPP Server. */
+int stop()
+{
+  int result;
+
+  /* 7.  @todo: Close the XML stream (Section 4.4) */
+
+  /* 8.  Close the TCP connection */
+
+  result = -1;
+
+  return result;
+}
 
 int main (int argc, char *argv[])
 {

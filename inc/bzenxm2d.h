@@ -24,4 +24,18 @@
 
 #include <config.h>
 
+/**
+ * Activate the XMPP Server on the local host.
+ *
+ * @return int 0 If the server was started successfully otherwise non-zero.
+ */
+int start();
+
+/**
+ * Terminate the XMPP Server.
+ *
+ * @return int 0 On a clean shutdown otherwise non-zero.
+ */
+int stop();
+
 #endif /* _BZENXM2D_H_ */

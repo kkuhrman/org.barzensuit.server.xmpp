@@ -1,7 +1,7 @@
 ## Process this file with automake to produce Makefile.in
 # @copyright:	Copyright (C) 2017 Kuhrman Technology Solutions LLC.
 #
-# This file is part of the Project Barzensuit XMPP Server modeul package.
+# This file is part of the Project Barzensuit XMPP Server module package.
 #
 # @license:	GPLv3+: GNU GPL version 3
 #
